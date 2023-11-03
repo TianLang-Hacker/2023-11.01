@@ -11,11 +11,11 @@ def sendReport(file_name):
 
     
 
-    mail_host = "smtp.qq.com" #设置QQ SMTP Server
-    mail_user = "3071571983@qq.com" #账户
-    mail_pwd = "qsxvcaxwveumdgia" #QQ SMTP/IMAL授权码
-    sender = "3071571983@qq.com"  #发送人邮箱
-    receiver = ['18952733995@163.com', '18952733995a@gmail.com']  #接收邮件人列表
+    mail_host = "" #设置SMTP Server
+    mail_user = "" #邮箱账户，@qq.com，@163.com，@gmail.com都可以
+    mail_pwd = "" #SMTP/IMAL授权码
+    sender = ""  #发送人邮箱
+    receiver = ['']  #接收邮件人的邮箱
 
     # message = MIMEText ('1145141919810','plain','UTF-8')
     message = MIMEText (mail_body,'html','UTF-8')  #mail_body 是HTML格式发送

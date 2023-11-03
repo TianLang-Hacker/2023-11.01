@@ -2,7 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
-mail_host = "smtp.qq.com" #设置QQ SMTP Server
+mail_host = "" #设置SMTP Server
 mail_user = "" #邮箱账户，@qq.com，@163.com，@gmail.com都可以
 mail_pwd = "" #SMTP/IMAL授权码
 sender = ""  #发送人邮箱
